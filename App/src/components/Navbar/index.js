@@ -25,7 +25,7 @@ export default class Barra extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="navMenu">
         <Navbar color="light" light expand="md">
           <h4 id="logo">{'<inspiraCode/>'}</h4>
           {this.props.logged ? (
@@ -37,19 +37,19 @@ export default class Barra extends React.Component {
                     <span onClick={this.props} >Livros</span>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="">Grupos</NavLink>
+                    <NavLink className="teste" >Grupos</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="">Videos</NavLink>
+                    <NavLink>Videos</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="">Newsletters</NavLink>
+                    <NavLink>Newsletters</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="">Blogs</NavLink>
+                    <NavLink>Blogs</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="">inspiraNelas</NavLink>
+                    <NavLink>inspiraNelas</NavLink>
                   </NavItem>
                   <NavItem>
                     <span onClick={this.props.action}>Sair</span>

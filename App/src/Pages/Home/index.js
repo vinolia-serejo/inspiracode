@@ -6,6 +6,7 @@ import Cards from '../../components/Cards'
 import Categories from '../../components/Categories'
 import Footer from '../../components/Footer'
 
+
 const Home = ({ action }) => {
   return (
     <div className="Home">

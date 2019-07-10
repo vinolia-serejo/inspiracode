@@ -1,9 +1,16 @@
+
 .cards {
-  padding: 2rem;
+  padding: 15%;
+  background-color: palegreen;
+  background-size: contain;
+  
+  
+  
 
 }
 
 .card-body {
+  background-color: white;
   background-size: cover;
   height: 200px;
   padding: 1.5rem;
@@ -15,3 +22,22 @@
     margin: auto;
   }
 }
+
+// .parallax { 
+//   /* The image used */
+//   background-image: url("img_parallax.jpg");
+
+//   /* Set a specific height */
+//   height: 500px; 
+
+//   /* Create the parallax scrolling effect */
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+// NO HTML:
+
+// <!-- Container element -->
+// <div class="parallax"></div>

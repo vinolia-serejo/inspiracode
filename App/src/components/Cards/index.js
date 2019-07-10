@@ -12,8 +12,11 @@ export default class Cards extends React.Component {
       <div className="cards">
         <Row>
           <Col>
-            <div className="card-body">
-              <h1>blablabla</h1>
+          <div
+              className="card-body"
+              // style={{ backgroundImage: `url(${})` }}
+            >
+              <h1>{'<Front-end>'}</h1>
             </div>
           </Col>
           <Col>
@@ -32,3 +35,5 @@ export default class Cards extends React.Component {
   }
 }
 
+
+ 

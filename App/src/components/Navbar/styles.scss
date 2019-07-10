@@ -2,4 +2,17 @@
 
 #logo {
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    height: 6vh;
+}
+// .navMenu{
+//     nav {
+//         margin-right: 30px;
+//         position: sticky;
+//         top: 0;
+//         display: flex;
+//         justify-content: space-between;
+//     }
+// }
+.navMenu li a{
+    color: red;
 }
