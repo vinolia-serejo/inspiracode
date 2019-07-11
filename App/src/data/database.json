@@ -1,0 +1,133 @@
+{
+  "groups": [
+    {
+      "id": "0",
+      "type": "group",
+      "title": "React Native Drops",
+      "about": "Grupo de discussão sobre React Native",
+      "link": "https://t.me/reactnativedrops"
+    },
+    {
+      "id": "1",
+      "type": "group",
+      "title": "ReactJS Brasil",
+      "about": "Grupo de discussão sobre ReactJS",
+      "link": "https://t.me/reactjs_br"
+    }
+  ],
+  "videos": [
+    {
+      "id": "0",
+      "type": "video",
+      "title": "Curso em Video",
+      "about": "Cursos variados sobre desenvolvimento de software",
+      "link": "https://www.youtube.com/user/cursosemvideo"
+    },
+    {
+      "id": "1",
+      "type": "video",
+      "title": "RocketSeat",
+      "about": "Conteúdos sobre React, React Native e NodeJS",
+      "link": "https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg"
+    },
+    {
+      "id": "2",
+      "type": "video",
+      "title": "Free Code Camp",
+      "about": "Tutoriais sobre desenvolvimento de software em diversas linguagens de programação",
+      "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+    }
+  ],
+  "newsletters": [
+    {
+      "id": "0",
+      "type": "newsletter",
+      "title": "UI Lab",
+      "about": "Matérias sobre UI/UX e muitos recursos",
+      "link": "https://uilab.com.br/"
+    },
+    {
+      "id": "1",
+      "type": "newsletter",
+      "title": "The BRIEF",
+      "about": "Notícias sobre startups e negócios na área de tecnologia e afins",
+      "link": "https://www.thebrief.com.br/newsletter?ref=8fa180f3b9"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "0",
+      "type": "blog",
+      "title": "RocketSeat",
+      "about": "ReactJs, React Native e NodeJs",
+      "link": "https://blog.rocketseat.com.br/"
+    },
+    {
+      "id": "1",
+      "type": "blog",
+      "title": "UXVerso",
+      "about": "Universo de conteúdo para você aprender UX design.",
+      "link": "https://uxverso.com.br/"
+    },
+    {
+      "id": "2",
+      "type": "blog",
+      "title": "Scotch.io",
+      "about": "Conteudos sobre desenvolvimento web",
+      "link": "https://scotch.io/"
+    },
+    {
+      "id": "3",
+      "type": "blog",
+      "title": "Clube dos Geeks",
+      "about": "Conteudos sobre desenvolvimento web",
+      "link": "https://scotch.io/"
+    },
+    {
+      "id": "4",
+      "type": "blog",
+      "title": "DesignBetter",
+      "about": "Conteudos sobre design e boas práticas pela inVision",
+      "link": "https://www.designbetter.co/"
+    }
+  ],
+  "inspira": [
+    {
+      "id": "0",
+      "type": "elas",
+      "title": "Biamichelle Miranda",
+      "about": "Consultora Desenvolvedora de Software",
+      "link": "https://www.linkedin.com/in/biamichelle/"
+    },
+    {
+      "id": "1",
+      "type": "elas",
+      "title": "Alda Rocha",
+      "about": "UX",
+      "link": "https://www.linkedin.com/in/mjcoffeeholick/"
+    },
+    {
+      "id": "2",
+      "type": "elas",
+      "title": "Ana Carolina da Hora",
+      "about": "Desenvolvedora",
+      "link": "https://www.linkedin.com/in/anacarolinadahora/"
+    }
+  ],
+  "books": [
+    {
+      "id": "0",
+      "type": "book",
+      "title": "The road to React",
+      "about": "Livro com aplicações práticas em React",
+      "link": "https://roadtoreact.com/"
+    },
+    {
+      "id": "1",
+      "type": "book",
+      "title": "Web Development - Flavio Copes",
+      "about": "Livros de desenvolvimento web super atuais",
+      "link": "https://flaviocopes.com/page/ebooks/"
+    }
+  ]
+}

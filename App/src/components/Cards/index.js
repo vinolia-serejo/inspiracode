@@ -1,39 +1,32 @@
 import React from 'react'
 import './styles.scss'
-import { Col, Row} from 'reactstrap'
 
-export default class Cards extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
-  render() {
-    return (
-      <div className="cards">
-        <Row>
-          <Col>
-          <div
-              className="card-body"
-              // style={{ backgroundImage: `url(${})` }}
-            >
-              <h1>{'<Front-end>'}</h1>
+const Cards = ({ conteudo }) => {
+  return (
+    <div className="cards">
+      <div className="row">
+        {conteudo.map(item => {
+          return (
+            <div className="col">
+              <a className="link-externo" target="_blank" href={item.link}>
+                <div class="card" style={{ width: 18 + 'rem' }}>
+                  <img
+                    src={require(`../../assets/${item.type}.png`)}
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="row">{item.title}</h5>
+                    <p class="card-text row">{item.about}</p>
+                  </div>
+                </div>
+              </a>
             </div>
-          </Col>
-          <Col>
-            <div className="card-body">
-              <h1>blablabla</h1>
-            </div>
-          </Col>
-          <Col>
-            <div className="card-body">
-              <h1>blablabla</h1>
-            </div>
-          </Col>
-        </Row>
+          )
+        })}
       </div>
-    )
-  }
+    </div>
+  )
 }
 
-
- 
+export default Cards
