@@ -9,15 +9,15 @@ const Cards = ({ conteudo }) => {
           return (
             <div className="col">
               <a className="link-externo" target="_blank" href={item.link}>
-                <div class="card" style={{ width: 18 + 'rem' }}>
+                <div className="card" style={{ width: 18 + 'rem' }}>
                   <img
                     src={require(`../../assets/${item.type}.png`)}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="row">{item.title}</h5>
-                    <p class="card-text row">{item.about}</p>
+                  <div className="card-body">
+                    <h5 className="row">{item.title}</h5>
+                    <p className="card-text row">{item.about}</p>
                   </div>
                 </div>
               </a>
