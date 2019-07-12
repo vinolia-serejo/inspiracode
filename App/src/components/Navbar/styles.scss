@@ -1,8 +1,8 @@
 @import '../../animations.scss';
 
 #logo {
-    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    height: 6vh;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  height: 6vh;
 }
 // .navMenu{
 //     nav {
@@ -13,6 +13,4 @@
 //         justify-content: space-between;
 //     }
 // }
-#teste a{
-    color: red;
-}
+

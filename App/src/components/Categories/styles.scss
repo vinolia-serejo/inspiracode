@@ -1,25 +1,31 @@
 @import '../../animations.scss';
 
-.categorie{
-    padding: 2rem;
+.categorie {
+  padding: 2rem;
 }
 
-.categorie-body{
-    animation: bounce-in-top 1.1s both;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position: center 35%;
-    height: 90vh;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-flow: column-reverse wrap;
-    align-content: center;
-    h1{
-       
-        
-    }
+.categorie-body {
+  animation: bounce-in-top 1.1s both;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center 35%;
+  height: 90vh;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  align-content: center;
+  & p {
+    margin: 0 auto;
+    display: none;
+  }
 
-    
+  &:hover {
+    background-position: center 15%;
+
+    & p {
+      display: inline-flex;
+    }
+  }
 }

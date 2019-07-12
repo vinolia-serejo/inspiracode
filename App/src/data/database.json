@@ -72,19 +72,12 @@
     {
       "id": "2",
       "type": "blog",
-      "title": "Scotch.io",
+      "title": "Clube dos Geeks",
       "about": "Conteudos sobre desenvolvimento web",
-      "link": "https://scotch.io/"
+      "link": "http://clubedosgeeks.com.br/"
     },
     {
       "id": "3",
-      "type": "blog",
-      "title": "Clube dos Geeks",
-      "about": "Conteudos sobre desenvolvimento web",
-      "link": "https://scotch.io/"
-    },
-    {
-      "id": "4",
       "type": "blog",
       "title": "DesignBetter",
       "about": "Conteudos sobre design e boas práticas pela inVision",

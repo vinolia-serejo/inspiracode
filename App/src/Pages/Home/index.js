@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Navbar from '../../components/Navbar'
 import Content from '../../components/Content'
 import Header from '../../components/Header'
@@ -11,24 +11,66 @@ export default class Home extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = {
-      grupos: dados.groups,
-      videos: dados.videos,
-      news: dados.newsletters,
-      blogs: dados.blogs,
-      inspira: dados.inspira,
-      livros: dados.books
+      category: '',
+      content: dados.books,
+      hideHeaderImage: false
     }
   }
 
+  filterByCategory = category => {
+    let content
+    let hideHeaderImage
+    switch (category) {
+      case 'livros':
+        content = dados.books
+        hideHeaderImage = true
+        break
+      case 'blogs':
+        content = dados.blogs
+        hideHeaderImage = true
+        break
+      case 'groups':
+        content = dados.groups
+        hideHeaderImage = true
+        break
+      case 'videos':
+        content = dados.videos
+        hideHeaderImage = true
+        break
+      case 'newsletters':
+        content = dados.newsletters
+        hideHeaderImage = true
+        break
+      case 'inspira':
+        content = dados.inspira
+        hideHeaderImage = true
+        break
+
+      default:
+        content = ''
+        hideHeaderImage = false
+        break
+    }
+    this.setState({ category, content, hideHeaderImage })
+  }
+
   render() {
+    const logout = this.props.action
+    const { category, content, hideHeaderImage } = this.state
+    console.log(this.state.category)
+
     return (
       <div className="Home">
-        <Navbar logged={true} action={this.props.action} />
-        <Header />
-        <Content>
-          <Categories />
-        </Content>
-        <Cards conteudo={this.state.videos} />
+        <Navbar logged={true} action={logout} />
+        <Header hide={hideHeaderImage} filter={this.filterByCategory} />
+        {!category && (
+          <Fragment>
+            <Content>
+              <Categories />
+            </Content>
+          </Fragment>
+        )}
+        {category && <Cards conteudo={content} />}
         <Footer />
       </div>
     )
