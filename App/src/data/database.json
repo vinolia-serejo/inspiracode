@@ -72,39 +72,46 @@
     {
       "id": "2",
       "type": "blog",
-      "title": "Clube dos Geeks",
-      "about": "Conteudos sobre desenvolvimento web",
-      "link": "http://clubedosgeeks.com.br/"
+      "title": "API para iniciantes",
+      "about": "Conteudos de estudos de API para web",
+      "link": "https://apiparainiciantes.netlify.com/"
     },
     {
       "id": "3",
       "type": "blog",
-      "title": "DesignBetter",
-      "about": "Conteudos sobre design e boas práticas pela inVision",
-      "link": "https://www.designbetter.co/"
+      "title": "Debug",
+      "about": "Conteudos sobre tecnologia traduzido para o português",
+      "link": "https://debugtraducao.netlify.com/"
     }
   ],
   "inspira": [
     {
       "id": "0",
       "type": "elas",
-      "title": "Biamichelle Miranda",
-      "about": "Consultora Desenvolvedora de Software",
-      "link": "https://www.linkedin.com/in/biamichelle/"
+      "title": "Jessica Lopes",
+      "about": "Desenvolvedora Front-End",
+      "link": "https://www.linkedin.com/in/jessica-lopes-teodozio/"
     },
     {
       "id": "1",
       "type": "elas",
-      "title": "Alda Rocha",
-      "about": "UX",
-      "link": "https://www.linkedin.com/in/mjcoffeeholick/"
+      "title": "Talita Oliveira Santos ",
+      "about": "Desenvolvedora Front-End",
+      "link": "https://www.linkedin.com/in/talita-oliveira-santos-50132665/"
     },
     {
       "id": "2",
       "type": "elas",
-      "title": "Ana Carolina da Hora",
-      "about": "Desenvolvedora",
-      "link": "https://www.linkedin.com/in/anacarolinadahora/"
+      "title": "Rafaela Barros",
+      "about": "Desenvolvedora Front-End",
+      "link": "https://www.linkedin.com/in/rafaela-barros1/"
+    },
+    {
+      "id": "3",
+      "type": "elas",
+      "title": "Janiarli Ingrid Alexandre",
+      "about": " Facilitadora e Desenvolvedora Front-End",
+      "link": "https://www.linkedin.com/in/janiarli/"
     }
   ],
   "books": [

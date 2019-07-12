@@ -1,8 +1,7 @@
 import React from 'react'
 import { ReactComponent as ImagemSvg } from '../../assets/tela-login.svg'
 import './styles.scss'
-import FacebookLogin from 'react-facebook-login'
-import GoogleLogin from 'react-google-login'
+
 
 const HeaderLogin = ({ action }) => {
   const responseFacebook = response => {

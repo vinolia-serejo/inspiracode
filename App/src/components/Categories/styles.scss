@@ -3,14 +3,21 @@
 .categorie {
   padding: 2rem;
 }
+.title{
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(214, 68, 10), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+
+}
 .categorie-body {
   animation: bounce-in-top 1.1s both;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
   background-position: center 35%;
-  height: 90vh;
+  height: 80vh;
   padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
